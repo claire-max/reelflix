@@ -8,7 +8,7 @@ const Account = () => {
       <div className='w-full text-white'>
         <img
           className='w-full h-[500px] object-cover'
-          src='https://images.pexels.com/photos/5082566/pexels-photo-5082566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          src='https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1600'
           alt='/'
         />
         <div className='bg-black/60 fixed top-0 left-0 w-full h-[550px] rounded-md'></div>

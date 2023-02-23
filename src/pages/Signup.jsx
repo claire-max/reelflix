@@ -5,7 +5,7 @@ import { UserAuth } from '../context/AuthContext';
 const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { user, signUp } = UserAuth();
+  const { signUp } = UserAuth();
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
@@ -20,7 +20,7 @@ const Signup = () => {
   return (
     <>
     <div className='w-full h-screen'>
-       <img className='hidden sm:block absolute w-full h-full object-cover' src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=600" alt='backimage'></img>
+       <img className='hidden sm:block absolute w-full h-full object-cover' src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuZHklMjBiYXJzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt='backimage'></img>
        <br/><br/>
        <div className='bg-black/50 fixed top-0 left-0 w-full h-screen'></div>
        <div className='fixed w-full px-4 py-24 z-50'> 
@@ -35,7 +35,7 @@ const Signup = () => {
                         <p><input className='mr-2' type="checkbox"/>Remember me</p>
                         <p>Need Help?</p>
                     </div>
-                    <p className='py-9'><span className='text-gray-400'>Already subscribed?</span>{''}
+                    <p className='py-9'><span className='text-pink-500'>Already subscribed?</span>{''}
                     <Link to='/login'>Login</Link>
                     </p>
                 </form>
