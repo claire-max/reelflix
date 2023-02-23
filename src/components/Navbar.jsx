@@ -51,15 +51,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-//           <Link to='/login'>
-//             <button className='text-white pr-4'>Login In</button>
-//             </Link>
-//             <Link to='signup'>
-//             <button className='bg-green-600 px-6 py-2 rounded cursor-pointer text-white'>Sign Up</button>
-//             </Link>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
