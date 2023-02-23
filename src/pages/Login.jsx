@@ -30,7 +30,7 @@ const Login = () => {
     <br/><br/>
     <div className='bg-gray/60 fixed top-0 left-0 w-full h-screen '></div>
     <div className='fixed w-full px-4 py-24 z-50 '>
-      <div className='max-w-[450px] h-[600px] mx-auto bg-blue-800/75 text-white rounded-md'>
+      <div className='max-w-[450px] h-[600px] mx-auto bg-neutral-800/75 text-white rounded-md'>
         <div className='max-w-[320px] mx-auto py-16'>
           <h1 className='text-3xl font-bold'>Login</h1>
           {error ? <p className='p-3 my-2'>{error}</p> : null}
@@ -49,10 +49,10 @@ const Login = () => {
               placeholder='Password'
               autoComplete='current-password'
             />
-            <button className='bg-green-600 py-3 my-6 rounded font-bold'>
-              Sign In
+            <button className=' bg-pink-600/75 py-3 my-6 rounded font-bold'>
+              Login
             </button>
-            <div className='flex justify-between items-center text-sm text-gray-400'>
+            <div className='flex justify-between items-center text-sm text-white-400'>
               <p>
                 <input className='mr-2' type='checkbox' />
                 Remember me
@@ -60,7 +60,7 @@ const Login = () => {
               <p>Need Help?</p>
             </div>
             <p className='py-8'>
-              <span className='text-gray-500'>New to Netflix?</span>{' '}
+              <span className='text-pink-600 '>New to Reelflix?</span>{' '}
               <Link to='/signup'>Sign Up</Link>
             </p>
           </form>
