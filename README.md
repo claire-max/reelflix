@@ -19,7 +19,7 @@ Reelflix is a new streaming service hitting the ground running!
   ![Alt Text](./src/assets/images/page.png)
 
   ## Deployed Link 
- 
+  https://reelflix-a49f9.web.app
 
   ## Questions?
   ### Reach me here: 
