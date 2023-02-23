@@ -4,6 +4,7 @@ import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
 import { updateDoc, doc, onSnapshot } from 'firebase/firestore';
 import { AiOutlineClose } from 'react-icons/ai';
+import {BsHeartFill} from 'react-icons/bs'
 
 const SavedShows = () => {
   const [movies, setMovies] = useState([]);
@@ -38,7 +39,10 @@ const SavedShows = () => {
 
   return (
     <>
-      <h2 className='text-white font-bold md:text-xl p-6'>My Shows</h2>
+    <div>
+    <BsHeartFill size={40}/>
+    </div>
+      <div style={{color: '#dc2b74'}} className=' p-6'><BsHeartFill size={40}/></div>
       <div className='relative flex items-center group'>
         <MdChevronLeft
           onClick={slideLeft}
